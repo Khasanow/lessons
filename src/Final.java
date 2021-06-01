@@ -6,7 +6,7 @@ public class Final {
         //x=5;
     }
 }
-class Test{
+class Testt{
     public static final int CONST=0;
 
 //    class Test(int CONST){

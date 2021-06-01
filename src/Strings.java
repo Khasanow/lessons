@@ -8,5 +8,6 @@ public class Strings {
         System.out.println(s+qwe+asd);
         System.out.println("Привет"+" "+"Медвед");
         System.out.println("твое число "+a);//sout нажимаем TAB
+
     }
 }
