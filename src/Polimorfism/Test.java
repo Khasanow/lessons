@@ -2,20 +2,19 @@ package Polimorfism;
 
 public class Test {
     public static void main(String[] args){
-//        Animal animal=new Animal();
-/*        Dog dog=new Dog();
 
-        animal.eat();
-        dog.eat();*/
-        Animal animal=new Animal();
-        Dog dog=new Dog();
-        Cat cat=new Cat();
+//        Dog dog=new Dog();
+//        //upcasting - восходящее преобразование
+//        Animal animal=dog;
+//
+//
+//        //downcasting - нисходящее преобразование
+//        Dog dog2=(Dog) animal;]
+//        dog2.bark();
+        Animal a = new Animal();
+        Dog dog=(Dog) a;
+        dog.bark();
 
-        test(animal);
-        test(dog);
-        test(cat);
     }
-    public static void test(Animal animal){
-        animal.eat();
-    }
+
 }
