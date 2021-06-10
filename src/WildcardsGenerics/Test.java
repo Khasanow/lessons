@@ -14,17 +14,17 @@ public class Test {
         listOfDogs.add(new Dog());
 
         test(listOfAnimal);
-        test(listOfDogs);
+//        test(listOfDogs);
 
-        Object object= new Object();
+//        Object object= new Object();
     }
 
-    private  static void test(Animal animal){
-
-    }
-    public static void test(List<? extends Animal> list){
-        for (Animal animal:list){
-            System.out.println(animal);
-        }
+//    private  static void test(Animal animal){
+//
+//    }
+    public static void test(List<? super Animal> list){
+//        for (Animal animal : list){
+//            animal.eat();
+//        }
     }
 }
