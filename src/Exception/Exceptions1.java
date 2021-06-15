@@ -19,7 +19,7 @@ public class Exceptions1 {
     }
     public void readFile() throws FileNotFoundException{
         File file=new File("asd");
-        Scanner scanner= new Scanner();
+//        Scanner scanner= new Scanner();
 
     }
 }
